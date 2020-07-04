@@ -1,5 +1,5 @@
 # ChatUnderName
-This Plugin Allows You to See Last Players Message under his Nametag
+This Plugin Allows You to See Last Players Message under his Nametag whit purechat support
 
 feel Free to Tell Me the bugs and errors 
 
