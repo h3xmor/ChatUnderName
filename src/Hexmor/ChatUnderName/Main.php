@@ -5,21 +5,8 @@ declare(strict_types=1);
 namespace Hexmor\ChatUnderName;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\command\Command;
-use pocketmine\command\CommandSender;
 use pocketmine\Player;
-use pocketmine\entity\Effect;
-use pocketmine\entity\EffectInstance;
 use pocketmine\Server;
-use pocketmine\utils\TextFormat;
-use pocketmine\command\CommandExecutor;
-use pocketmine\command\ConsoleCommandSender;
-use pocketmine\item\Item;
-use pocketmine\math\Vector3;
-use pocketmine\level\Level;
-use pocketmine\level\Position;
-use pocketmine\event\player\PlayerItemHeldEvent;
-use pocketmine\utils\TextFormat as TF;
 use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\event\Listener;
 
