@@ -23,8 +23,8 @@ class Main extends PluginBase implements Listener{
 	$msg = $ev->getMessage();
         $nameTag = $this->getServer()->getPluginManager()->getPlugin("PureChat");
 	if(!is_null($nameTag)){
-        $nameTag->getNametag($p);
-		$p->setNameTag($nameTag . "\n " . mb_strimwidth($msg, 0, 30, "...") . "\n");
+		
+		$p->setNameTag($nameTag->getNametag($p) . "\n " . mb_strimwidth($msg, 0, 30, "...") . "\n");
 	}else{
 	$current = $p->getNameTag();
         $p->setNameTag($p->getName() . "\n " . mb_strimwidth($msg, 0, 30, "...") . "\n");
